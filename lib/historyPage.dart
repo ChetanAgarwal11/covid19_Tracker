@@ -1,11 +1,10 @@
-import 'package:covid_19/business/latestmodel.dart';
-import 'package:covid_19/widgets/charts.dart';
-import 'package:covid_19/widgets/counter.dart';
-import 'package:covid_19/widgets/my_header.dart';
+import './business/latestmodel.dart';
+import './widgets/charts.dart';
+import './widgets/counter.dart';
+import './widgets/my_header.dart';
 import 'package:date_time_format/date_time_format.dart';
 import 'package:flutter/material.dart';
 import 'package:velocity_x/velocity_x.dart';
-import 'package:intl/intl.dart';
 import 'business/historyModel.dart';
 import 'constant.dart';
 

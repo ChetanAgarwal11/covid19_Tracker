@@ -1,14 +1,13 @@
 import 'package:bot_toast/bot_toast.dart';
-import 'package:covid_19/business/historyModel.dart';
-import 'package:covid_19/business/latestmodel.dart';
-import 'package:covid_19/business/services.dart';
-import 'package:covid_19/constant.dart';
-import 'package:covid_19/widgets/charts.dart';
-import 'package:covid_19/historyPage.dart';
-import 'package:covid_19/info_screen.dart';
+import './business/historyModel.dart';
+import './business/latestmodel.dart';
+import './business/services.dart';
+import './constant.dart';
+import './historyPage.dart';
+import './info_screen.dart';
 
-import 'package:covid_19/widgets/counter.dart';
-import 'package:covid_19/widgets/my_header.dart';
+import './widgets/counter.dart';
+import './widgets/my_header.dart';
 import 'package:extended_image/extended_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -31,7 +30,7 @@ class MyApp extends StatelessWidget {
           scaffoldBackgroundColor: kBackgroundColor,
           fontFamily: "Poppins",
           textTheme: TextTheme(
-            body1: TextStyle(color: kBodyTextColor),
+            bodyText1: TextStyle(color: kBodyTextColor),
           )),
       home: HomeScreen(),
     );

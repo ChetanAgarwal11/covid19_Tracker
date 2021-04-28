@@ -1,4 +1,4 @@
-import 'package:covid_19/constant.dart';
+import '../constant.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:velocity_x/velocity_x.dart';

@@ -1,5 +1,5 @@
-import 'package:covid_19/constant.dart';
-import 'package:covid_19/widgets/my_header.dart';
+import './constant.dart';
+import './widgets/my_header.dart';
 import 'package:extended_image/extended_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -16,14 +16,12 @@ class _InfoScreenState extends State<InfoScreen> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     controller.addListener(onScroll);
   }
 
   @override
   void dispose() {
-    // TODO: implement dispose
     controller.dispose();
     super.dispose();
   }

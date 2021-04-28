@@ -1,5 +1,4 @@
-import 'package:covid_19/constant.dart';
-import 'package:covid_19/info_screen.dart';
+import '../constant.dart';
 import 'package:extended_image/extended_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';

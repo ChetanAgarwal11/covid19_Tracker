@@ -1,5 +1,5 @@
-import 'package:covid_19/business/historyModel.dart';
-import 'package:covid_19/constant.dart';
+import '../business/historyModel.dart';
+import '../constant.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
